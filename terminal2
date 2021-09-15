@@ -1,0 +1,255 @@
+  mkdir quests
+  157  mkdir -p quests/shell/vegetables quests/shell/fruits
+  158  ls
+  159  mkdir quests/shell/remove-me quests/shell/delete-me
+  160  ls quests/shell
+  161  rmdir quests/shell/remove-me quests/shell/delete-me
+  162  cd ~/quests/shell
+  163  touch apple
+  164  touch apricot
+  165  touch carrot parsnip cauliflower courgette
+  166  ls
+  167  ls ~l ~/.bashrc
+  168  touch ~/.bashrc
+  169  ls ~/.bashrc
+  170  cp apple banana
+  171  cp apple fruits/ornage
+  172  ls ; ls fruits
+  173  cp ap* banana fruits/
+  174  ls fruits
+  175  cp -R fruits copy-of-fruits
+  176  cp -R fruits copy-of-fruits /tmp/
+  177  find
+  178  rm ap* banana
+  179  rm -r copy-of-fruits
+  180  ls
+  181  mv ca* parsnip courgette vegetables/
+  182  mv fruits/ornage fruits/grapefruit
+  183  mv vegetables/courgette fruits/kiwi
+  184  ls
+  185  rm fruits
+  186  rm -r fruits/vegetables
+  187  rm /quests/shell/
+  188  ls
+  189  cd ..
+  190  rm shell
+  191  cd ~
+  192  sudo apt-get install -y curl unzip
+  193  é/quests/shell
+  194  ls
+  195  curl -L -o planets.zip "https://github.com/WilCodeSchool/quests-resources/blog/master/terminal/planets.zip?raw=true"
+  196  unzip planets.zip
+  197  cd ~planets
+  198  cd /planets
+  199  cd planets
+  200  mkdir planets
+  201  ls
+  202  rm planets
+  203  rm -r planets
+  204  ls
+  205  unzip planets.zip
+  206  ls
+  207  cd ~/quests/shell
+  208  curl -L -o planets.zip "https://github.com/WilCodeSchool/quests-resources/blog/master/terminal/planets.zip?raw=true"
+  209  unzip planets.zip
+  210  ls
+  211  unzip planets.zip
+  212  ls
+  213  find planets.zip
+  214  cd pl
+  215  ls -z
+  216  ls -a
+  217  rm -rf planets.zip 
+  218  ls
+  219  curl -L -o planets.zip "https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true"
+  220  ls
+  221  unzip planets.zip 
+  222  cd planets
+  223  mkdir real fictional inhabited
+  224  ls
+  225  cd real
+  226  mkdir terrestrial gas-giants dwarf-planets
+  227  ls
+  228  cd terrestrial
+  229  cd ..
+  230  cd terrestral
+  231  cd terrestrial
+  232  mv earth.jpeg mars.jpeg venus.jpeg
+  233  ls
+  234  mv earth.jpeg/mars.jpeg/venus.jpeg/
+  235  mv --help
+  236  cd
+  237  cd planets
+  238  cd /planets
+  239  cd /quests/shell/planets/
+  240  cd quests
+  241  cd /shell
+  242  cd shell
+  243  cd planets
+  244  ls
+  245  mv earth.jpeg mars.jpeg venus.jpeg /terrestrial
+  246  mv earth.jpeg mars.jpeg venus.jpeg /real/terrestrial
+  247  mv earth.jpeg mars.jpeg venus.jpeg ../real/terrestrial
+  248  cd real
+  249  mv earth.jpeg mars.jpeg venus.jpeg ../real/terrestrial mv --help
+  250  mv earth.jpeg mars.jpeg venus.jpeg -t /real/terrestrial mv --help
+  251  cd ..
+  252  ls
+  253  mv earth.jpeg mars.jpeg venus.jpeg ./real/terrestrial/
+  254  ls
+  255  mv jupiter.jpeg mercury.jpeg saturn.jpeg uranus.jpeg ./real/terrestrial/
+  256  ls
+  257  mv neptune.jpeg ./real/terrestrial/
+  258  ls
+  259  mkdir fictives
+  260  mv arrakis.jpeg cybertton.jpeg pluto.jpeg corruscant.jpeg ./fictives/
+  261  ls
+  262  mv coruscant.jpeg cybertron.jpeg ./fictives/
+  263  mkdir inhabited
+  264  ls
+  265  mv earth.jpeg cybertron.jpeg coruscant.jpeg mars.jpeg ./inhabited/
+  266  ls
+  267  cd fictives
+  268  ls
+  269  cd ..
+  270  cd inhabited
+  271  ls
+  272  cd..
+  273  cd ..
+  274  ls
+  275  cd terrestrial
+  276  cd real
+  277  cd terrestrial
+  278  ls
+  279  cd ..
+  280  ls
+  281  mv ./terrestrial/earth.jpeg ../inhabited/
+  282  cd terrestrial/
+  283  ls
+  284  cd ..
+  285  cd inhabited/
+  286  ls
+  287  cd ..
+  288  cd real/terrestrial
+  289  mv mars.jpeg ./inhabited/
+  290  ls
+  291  mv mars.jpeg ../inhabited
+  292  cd ..
+  293  cd gas-riants
+  294  cd .. gas-giants
+  295  cd gas-giants
+  296  ls
+  297  cd ..
+  298  cd fictives
+  299  ls
+  300  mv coruscant.jpeg cybertron.jpeg ../inhabited/
+  301  cd ..
+  302  cd inhabited
+  303  ls
+  304  cd ..
+  305  cd real
+  306  cd terrestrial
+  307  ls
+  308  cd ..
+  309  ls
+  310  cat inhabited 
+  311  ls
+  312  cd ..
+  313  ls
+  314  cd inhabited/
+  315  ls
+  316  cd ..
+  317  LS
+  318  ls
+  319  find mars.jpeg
+  320  find real
+  321  find fictives/
+  322  find fictional/
+  323  find inhabited/
+  324  cd real/
+  325  ls
+  326  mv inhabited mars.jpeg
+  327  ls
+  328  mv mars.jpeg ../inhabited/
+  329  ls
+  330  cd ..
+  331  cd inhabited/
+  332  ls
+  333  cd ..
+  334  cd fictives
+  335  ls
+  336  cd ..
+  337  cd inhabited/
+  338  ls
+  339  cd ..
+  340  cd gas-giants
+  341  ls
+  342  cd real
+  343  cd gas-giants
+  344  ls
+  345  cd ..
+  346  cd fictives
+  347  ls
+  348  cp pluto.jpeg ../dwarf-planets
+  349  cd ..
+  350  cd real
+  351  cd dwarf-planets
+  352  ls
+  353  cp pluto.jpeg fictives/dwarf-planets
+  354  cd ..
+  355  cd fictives
+  356  ls
+  357  cp pluto.jpeg ../real/dwarf-planets/
+  358  ls
+  359  cd ..
+  360  cd ../real/dwarf-planets/
+  361  cd ..
+  362  cd planets/
+  363  ls
+  364  cd real/
+  365  ls
+  366  cd dwarf-planets/
+  367  ls
+  368  cd ..
+  369  ls
+  370  cd ..
+  371  ls
+  372  cat dwarf-planets 
+  373  history
+guilbert@guilbert-X540LJ:~/quests/shell/planets$ cd ..
+guilbert@guilbert-X540LJ:~/quests/shell$ find
+.
+./planets.zip
+./planets
+./planets/fictional
+./planets/inhabited
+./planets/inhabited/mars.jpeg
+./planets/inhabited/earth.jpeg
+./planets/inhabited/cybertron.jpeg
+./planets/inhabited/coruscant.jpeg
+./planets/dwarf-planets
+./planets/fictives
+./planets/fictives/pluto.jpeg
+./planets/fictives/arrakis.jpeg
+./planets/real
+./planets/real/dwarf-planets
+./planets/real/dwarf-planets/pluto.jpeg
+./planets/real/gas-giants
+./planets/real/terrestrial
+./planets/real/terrestrial/uranus.jpeg
+./planets/real/terrestrial/venus.jpeg
+./planets/real/terrestrial/jupiter.jpeg
+./planets/real/terrestrial/mercury.jpeg
+./planets/real/terrestrial/saturn.jpeg
+./planets/real/terrestrial/neptune.jpeg
+./fruits
+./fruits/kiwi
+./fruits/banana
+./fruits/apricot
+./fruits/grapefruit
+./fruits/apple
+./vegetables
+./vegetables/carrot
+./vegetables/parsnip
+./vegetables/cauliflower
+guilbert@guilbert-X540LJ:~/quests/shell$ 
